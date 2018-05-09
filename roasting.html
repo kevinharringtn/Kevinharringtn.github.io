@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Roasting</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #878787;
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-header {
+            background: #f0f5f5;
+            height: 100px;
+            display:flex;
+        }
+
+        .nav-div {
+            margin: auto;
+            
+        }
+
+        .logo-img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .search-icon {
+            margin: 30px;
+
+
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            display:flex;
+        }
+
+        .nav-bar-link {
+            color: #878787;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            height: 300px;
+            background: url("imgs/beans.jpg") no-repeat top;
+            background-size: cover;
+
+        }
+
+        .main-header-title {
+            text-align: left;
+            font-size: 2.5em;
+            color: #f7f8f9;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 2px 2px 5px darkgrey;
+            margin-top:0;
+
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            color: white;
+            text-align: justify;
+            display:flex;
+        }
+
+        .intro {
+            width: 60%;
+            margin: auto;
+        }
+
+        .button {
+            display: block;
+            background:brown;
+            width:120px;
+            margin:auto;
+            padding:5px;
+            color:white;
+            box-shadow:2px 2px 2px red;
+
+            
+        }
+
+        .box {
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: left;
+            background-color: tan;
+            margin:5px;
+            border:black solid;
+            color: white;
+
+            }
+
+             @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="nav-bar"] {
+        width: 50%;
+    }
+    }       
+
+
+          </style>
+</head>
+
+<body>
+    <div class="nav-header">
+            <div class="nav-div">
+            <ul class="nav-bar">
+                <li><a class="nav-bar-link" href="index.html">Coffee</a></li>
+                <li><a class="nav-bar-link" href="sourcing.html">Sourcing</a></li>
+                <li><a class="nav-bar-link" href="roasting.html">Roasting</a></li>
+                <li><a class="nav-bar-link" href="brewing.html">Brewing</a></li>
+                <li><a class="nav-bar-link" href="icerecipe.html">Iced Recipe </a></li>
+                <li><a class="nav-bar-link" href="hotrecipe.html">Hot Recipe </a></li>
+
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fa fa-coffee" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <h1 class="main-header-title">ROASTING</h1>
+        <div class="main-header-intro">
+            An exploration of how we turn fruit into drinkable coffee and how each roast is different 
+        </div>
+    </div>
+
+    <h2>There are three distinct ways to roast coffee!</h2>
+    <div class="intro">
+        <p> Whether you drink decaf, hot, iced, black, espresso or any other style of coffee, the roast makes a big difference!
+        </p>
+        
+    </div>
+
+    <div class="box">
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/lightroast.jpeg" alt="Light Roast">
+            <h3>Light Roast</h3>
+            <p>
+                Light Roasts carry the most caffeine out of any roast, and the lightest flavor. Because the beans are roasted for the shortest amount of time, they carry a lot of the fruity flavor and acidity that the coffee cherry originally has when it is on the tree. <a href="https://barringtoncoffee.com/shop/kochere/" class="button"> Try out my favorite Light Roast! </a>
+            </p>
+           
+        </div>
+        
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/roast.jpeg" alt="Medium Roast">
+            <h3>Medium Roast</h3>
+            <p>
+                Medium Roasts are roasted a little bit longer than Light Roasts. Because of this they have a richer flavor, with more of a flavor of caramel, toasted nuts and spice coming through than in Light Roasts. However, they have less caffeine than Light Roasts because they are roasted at a high heat for a longer period of time. 
+                <a href="https://barringtoncoffee.com/shop/the-413/" class="button"> Try Out My Favorite Medium Roast! </a>
+            </p>
+            
+        </div>
+       
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/darkroast.jpg" alt="DarkRoast">
+            <h3> Dark Roast </h3>
+            <p>
+                Dark Roast is the most infamous and strongest tasting cup of coffee. However, it has the least caffeine. This is because most of the caffeine is roasted away. Dark Roast is often used for espresso.
+                <a href="https://www.tandemcoffee.com/collections/coffees/products/stoker-kinda-dark" class="button"> Try Out My Favorite Dark Roast! </a>
+            </p>
+          
+        </div>
+        
+
+    </div>
+
+
+   
+</body>
+
+</html>

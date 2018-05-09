@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Coffee</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #878787;
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-header {
+            background: #f0f5f5;
+            height: 100px;
+            display:flex;
+        }
+
+        .nav-div {
+            margin: auto;
+            
+        }
+
+        .logo-img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .search-icon {
+            margin: 30px;
+
+
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            display:flex;
+        }
+
+        .nav-bar-link {
+            color: #878787;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            height: 300px;
+            background: url("imgs/cup.jpeg") no-repeat top;
+            background-size: cover;
+
+        }
+
+        .main-header-title {
+            text-align: left;
+            font-size: 2.5em;
+            color: #f7f8f9;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 2px 2px 5px darkgrey;
+            margin-top:0;
+
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            color: white;
+            text-align: justify;
+            display:flex;
+        }
+
+        .intro {
+            width: 60%;
+            margin: auto;
+        }
+
+        .button {
+            display: block;
+            background:brown;
+            width:120px;
+            margin:auto;
+            padding:5px;
+            color:white;
+            box-shadow:2px 2px 2px red;
+
+            
+        }
+
+        .box {
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: left;
+            background-color: tan;
+            margin:5px;
+            border:black solid;
+            color: white;
+
+            }
+
+             @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="nav-bar"] {
+        width: 50%;
+    }
+    }
+
+
+          </style>
+</head>
+
+<body>
+    <div class="nav-header">
+            <div class="nav-div">
+            <ul class="nav-bar">
+                <li><a class="nav-bar-link" href="index.html">Coffee</a></li>
+                <li><a class="nav-bar-link" href="sourcing.html">Sourcing</a></li>
+                <li><a class="nav-bar-link" href="roasting.html">Roasting</a></li>
+                <li><a class="nav-bar-link" href="brewing.html">Brewing</a></li>
+                <li><a class="nav-bar-link" href="icerecipe.html">Iced Recipe </a></li>
+                <li><a class="nav-bar-link" href="hotrecipe.html">Hot Recipe </a></li>
+
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fa fa-coffee" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <h1 class="main-header-title">COFFEE</h1>
+        <div class="main-header-intro">
+            A look into the growth and work that goes into every cup of coffee that we so regularly enjoy. 
+        </div>
+    </div>
+
+    <h2>There is so much to know and so many different ways to enjoy coffee!</h2>
+    <div class="intro">
+        <p> Whether you drink decaf, hot, iced, black, espresso or any other style of coffee, each cup has a rich backstory and history.
+        </p>
+        <a href="https://counterculturecoffee.com/learn" class="button"> Learn More </a>
+    </div>
+
+    <div class="box">
+
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/sourcing.jpeg" alt="Sourcing">
+            <h3>Sourcing</h3>
+            <p>
+                Sourcing is the first step to enjoying coffee. This involves acquiring coffee beans from various regions across the world where coffee is successfully farmed. Some of the most successful coffee farming regions are:
+            </p>
+            <ul>
+                <li>Africa</li>
+                <li>South America</li>
+                <li>Indonesia </li>
+            </ul>
+        </div>
+        
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/roast.jpeg" alt="Roasting">
+            <h3>Roasting</h3>
+            <p>
+                The next step in enjoying coffee is roasting the beans. Once the beans are sourced and imported, they must be roasted before they can be brewed. You can find a few different type of roasts, such as:
+            </p>
+            <ul>
+                <li>Light Roasts</li>
+                <li>Medium Roasts</li>
+                <li>Dark Roasts</li>
+                
+            </ul>
+        </div>
+       
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/brew.jpg" alt="FrenchPress">
+            <h3> Brewing </h3>
+            <p>
+                There are a variety of ways to brew coffee, and each one will result in a different tasting coffee!
+            </p>
+            <ul>
+                <li>French Press</li>
+                <li>Pour Over</li>
+                <li>Drip</li>
+                <li> Espresso </li>
+                <li> Cold Brew </li>
+            </ul>
+        </div>
+        
+
+    </div>
+
+
+   
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brewing</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #878787;
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-header {
+            background: #f0f5f5;
+            height: 100px;
+            display:flex;
+        }
+
+        .nav-div {
+            margin: auto;
+            
+        }
+
+        .logo-img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .search-icon {
+            margin: 30px;
+
+
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            display:flex;
+        }
+
+        .nav-bar-link {
+            color: #878787;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            height: 300px;
+            background: url("imgs/brewing.jpg") no-repeat top;
+            background-size: cover;
+
+        }
+
+        .main-header-title {
+            text-align: left;
+            font-size: 2.5em;
+            color: #f7f8f9;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 2px 2px 5px darkgrey;
+            margin-top:0;
+
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            color: white;
+            text-align: justify;
+            display:flex;
+        }
+
+        .intro {
+            width: 60%;
+            margin: auto;
+        }
+
+        .button {
+            display: block;
+            background:brown;
+            width:120px;
+            margin:auto;
+            padding:5px;
+            color:white;
+            box-shadow:2px 2px 2px red;
+
+            
+        }
+
+        .box {
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: left;
+            background-color: tan;
+            margin:5px;
+            border:black solid;
+            color: white;
+
+            }
+
+            @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="nav-bar"] {
+        width: 50%;
+    }
+	}
+
+          </style>
+</head>
+
+<body>
+    <div class="nav-header">
+            <div class="nav-div">
+            <ul class="nav-bar">
+                <li><a class="nav-bar-link" href="index.html">Coffee</a></li>
+                <li><a class="nav-bar-link" href="sourcing.html">Sourcing</a></li>
+                <li><a class="nav-bar-link" href="roasting.html">Roasting</a></li>
+                <li><a class="nav-bar-link" href="brewing.html">Brewing</a></li>
+                <li><a class="nav-bar-link" href="icerecipe.html">Iced Recipe </a></li>
+                <li><a class="nav-bar-link" href="hotrecipe.html">Hot Recipe </a></li>
+
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fa fa-coffee" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <h1 class="main-header-title">BREWING</h1>
+        <div class="main-header-intro">
+        A guide to different ways to brew our roasted coffee! 
+        </div>
+    </div>
+
+    <h2>There are an endlesss amount of ways to enjoy coffee!</h2>
+    <div class="intro">
+        <p> There are very many ways to enjoy coffee depending on what kind of coffee you like! 
+        </p>
+      
+    </div>
+
+    <div class="box">
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/frenchpress.jpg" alt="FrenchPress">
+            <h3>French Press</h3>
+            <p>
+                French Press is a style of making coffee enjoyed for generations by coffee lovers of all kinds. You leave the beans coarsely ground in water for four minutes, and then use the plunger to contain the grinds. This gives the coffee an intense and strong flavor and consistency that people love. 
+        </div>
+        
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/drip.jpg" alt="Drip">
+            <h3>Drip</h3>
+            <p>
+                Debatably the most popular style of brewing coffee is the Drip coffee maker. This is where you place coffee grounds in a filter, and let hot water rinse through the grinds slowly making a great and clean cup of coffee. This is what the coffee maker many people use at home is called. 
+            </p>
+            
+        </div>
+       
+        <div class="w3-third">
+        <div class="card">
+            <img src="imgs/espresso.jpg" alt="Espresso">
+            <h3> Espresso </h3>
+            <p>
+                This is a very famous and intense style of coffee. Invented in Italy to shorten coffee breaks during factory shifts, Espresso is made most often in machines with intense pressure. The coffee that comes out is in very small doses, and has less caffeine than regular coffee (common misunderstanding!) But is delicious and has a VERY strong taste. 
+            </p>
+          
+        </div>
+        
+
+    </div>
+
+
+   
+</body>
+
+</html>
